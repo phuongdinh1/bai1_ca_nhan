@@ -1,0 +1,18 @@
+@import url('main_left.css');
+@import url('main_right.css');
+
+
+
+main {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+/* MAIN RIGHT */
+

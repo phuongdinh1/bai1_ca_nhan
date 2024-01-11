@@ -5,9 +5,11 @@ nav{
     width: 75%;
 }
 .nav__menu ul{
+    
     margin: 0;
-    padding: 0;
+    padding: 0; 
     display: flex;
+    /* ???? */
 }
 .nav__menu ul li{
     list-style: none;
@@ -28,8 +30,27 @@ nav{
 .nav__menu ul li.active a{
     background-color:#696969;
 }
-.nav__search{
-    color: white;
-    text-align: right;
+
+.search {
+    margin: 15px 0px;
     width: 25%;
-}
+    text-align: right;
+    position: relative;
+  }
+  
+  input[type="text"] {
+    padding-right: 30px; 
+  }
+  
+  button {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  
+  

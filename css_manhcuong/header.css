@@ -17,7 +17,7 @@ header{
     color: white;
     text-transform: uppercase;
     margin-top: 0;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
 }
 .header__bottom ul{
     
@@ -26,7 +26,7 @@ header{
 }
 .header__bottom ul li{
     
-    padding: 10px;
+    margin-bottom: 10px;
     font-size: 14px;
     color: white;
     list-style: none;

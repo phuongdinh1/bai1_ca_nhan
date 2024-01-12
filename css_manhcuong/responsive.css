@@ -1,0 +1,21 @@
+@media (max-width:767px){
+    .container {
+        width: 100%;
+        
+    }
+    .row{
+        display: block;
+
+    }
+    .main__left{
+        width: 100%;
+    }
+    .main__right{
+        width: 100%;
+    }
+    .productHome__list {
+        
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}

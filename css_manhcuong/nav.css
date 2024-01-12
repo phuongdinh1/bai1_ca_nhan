@@ -13,7 +13,7 @@ nav{
 }
 .nav__menu ul li{
     list-style: none;
-    
+    position: relative;
 }
 .nav__menu ul li a{
     color:white;
@@ -52,5 +52,26 @@ nav{
     cursor: pointer;
   }
   
+.nav__menu ul li ul.subMenu{
+  display: none;
+  position: absolute;
+  width: 200px;
+  background-color:#696969;
+}
+
+.nav__menu ul li ul.subMenu li{
+    
+}
   
-  
+.nav__menu ul li ul.subMenu li a{
+    display: block;
+}
+
+.nav__menu ul li ul.subMenu li a:hover{
+    background-color:  #3b84b0;
+    color: rgb(255, 255, 255);
+}
+
+.nav__menu ul li:hover ul.subMenu {
+    display: block;
+}
